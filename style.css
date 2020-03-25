@@ -17,8 +17,20 @@ h4{
     font-size: 20px;
 }
 
+h2{
+    font-weight: medium;
+    font-size: 20px;
+    color: #004b80;
+}
+
+p{
+    font-weight: lighter;
+    font-size: 15px;
+    color: #004b80;
+ }
+
 .wrapper{
-    width: 960px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -80,3 +92,78 @@ border-radius: 20px;
 text-decoration: none;
 margin: 35px 0;
 }
+
+nav{
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, .1);
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    background: url(img/logo-plantas.png);
+    display: block;
+    overflow: hidden;
+    text-overflow: -999px;
+    width: 350px;
+    height: 75px;
+    position: absolute; top: 50% left:0;
+    margin-top: 10px;
+    margin-left: 30px
+}
+
+nav ul{
+    padding: 0;
+    margin: 0 30px 0 0;
+
+}
+ nav ul li{
+     padding: 0;
+     margin: 0;
+     display: block;
+     float: right;
+ }
+
+ nav ul li a{
+     display: block;
+     height: 100%;
+     box-sizing: border-box;
+     text-transform: uppercase;
+     font-weight: bold;
+     font-size: 20px;
+     color: #004b80;
+     text-decoration: none;
+     padding: 35px 20px;
+ }
+
+ .suscribe{
+     text-align: center;
+ }
+
+ .suscribe h1{
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #004b80;
+    padding-top: 20pxs;
+ }
+
+ .suscribe h4{
+    color: #004b80;
+ }
+
+
+
+ 
+
+
+/*
+<div class="suscribe">
+        <h2>Suscribite a mi fan club</h2>
+        <p>Se parte de esta comunidad, y únete a mi
+            newsletter diaria y descubre más de mis alucinantes
+            historias para no aburrirte ni un solo día!</p>
+        <button class="cta">Me apunto!</button>
+    </div>
+*/
