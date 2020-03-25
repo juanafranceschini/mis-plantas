@@ -1,3 +1,82 @@
-body{
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,500,700&display=swap');
+
+body, html{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+font-weight: bold;
+font-size: 43px;
+color: white;
+}
+
+h4{
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.hero-banner h1{
+    color: white;
+    margin: 14px 0 14px;
+}
+
+.hero-banner h4,
+.hero-banner h4 a{
+    color: #004b80;
+    margin: 0;
+}
+
+.hero-banner{
     background-color: #93c6e5;
+    min-height: 90vh;
+    padding: 150px 20px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.character1{
+    background: url(img/character1.png); no-repeat 0 0;
+    background-size: cover;
+    width: 253px;
+    height: 413px;
+    position: absolute; top: 10%; right: 22%;
+}
+
+.character2{
+    background: url(img/character2.png); no-repeat 0 0;
+    background-size: cover;
+    width: 198px;
+    height: 370px;
+    position: absolute; top: 213px; right: 25%;
+}
+
+.character3{
+    background: url(img/character3.png); no-repeat 0 0;
+    background-size: cover;
+    width: 311px;
+    height: 415px;
+    position: absolute; bottom: 74px; right: 10%;
+}
+
+a.cta, 
+button.cta{
+font-family: 'Ubuntu', sans-serif;
+font-size: 20px;
+font-weight: bold;
+color: white;
+background: #40c7a1;
+display: inline-block;
+border: 3px solid rgba(0, 0, 0, .15);
+padding: 15px 20px;
+border-radius: 20px;
+text-decoration: none;
+margin: 35px 0;
 }
