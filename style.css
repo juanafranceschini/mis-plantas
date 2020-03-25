@@ -147,23 +147,12 @@ nav ul{
     text-transform: uppercase;
     color: #004b80;
     padding-top: 20pxs;
+    margin-top: 70px;
  }
 
  .suscribe h4{
     color: #004b80;
+    margin: 40px;
+    margin-bottom: 10px;
  }
 
-
-
- 
-
-
-/*
-<div class="suscribe">
-        <h2>Suscribite a mi fan club</h2>
-        <p>Se parte de esta comunidad, y únete a mi
-            newsletter diaria y descubre más de mis alucinantes
-            historias para no aburrirte ni un solo día!</p>
-        <button class="cta">Me apunto!</button>
-    </div>
-*/
