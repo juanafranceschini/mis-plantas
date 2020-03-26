@@ -8,24 +8,24 @@ body, html{
 
 h1{
 font-weight: bold;
-font-size: 43px;
+font-size: 50px;
 color: white;
 }
 
 h4{
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 h2{
     font-weight: medium;
-    font-size: 20px;
+    font-size: 30px;
     color: #004b80;
 }
 
 p{
     font-weight: lighter;
-    font-size: 15px;
+    font-size: 20px;
     color: #004b80;
  }
 
@@ -43,6 +43,7 @@ p{
 .hero-banner h4 a{
     color: #004b80;
     margin: 0;
+    text-decoration: none;
 }
 
 .hero-banner{
@@ -91,7 +92,14 @@ padding: 15px 20px;
 border-radius: 20px;
 text-decoration: none;
 margin: 35px 0;
+cursor: pointer;
 }
+
+a.cta:active, 
+button.cta:active{
+    opacity: .7;
+}
+
 
 nav{
     height: 100px;
@@ -99,6 +107,7 @@ nav{
     box-shadow: 0 5px 8px rgba(0, 0, 0, .1);
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .logo{
@@ -115,7 +124,7 @@ nav{
 
 nav ul{
     padding: 0;
-    margin: 0 30px 0 0;
+    margin: 0 60px 0 0;
 
 }
  nav ul li{
@@ -123,6 +132,7 @@ nav ul{
      margin: 0;
      display: block;
      float: right;
+
  }
 
  nav ul li a{
@@ -156,3 +166,84 @@ nav ul{
     margin-bottom: 10px;
  }
 
+ .sep{
+     width: 600px;
+     height: 1px;
+     background-color: #158280;
+     margin: 70px auto;
+ }
+
+ .nb-list{
+     width: 350px;
+     padding: 15px;
+     box-sizing: border-box;
+     background-color: #e5e8ea;
+     float: left;
+     margin: 0 20px 20px 0;
+     position: relative;
+ }
+
+ .nb-list li{
+     height: 55px;
+     border-radius: 5px;
+     font-size: 25px;
+     text-align: center;
+     color: white;
+     font-weight: bold;
+     display: block;
+     margin-bottom: 12px;
+     padding: 12px;
+     box-sizing: border-box;
+
+ }
+
+ .nb-list li.green{background-color: #40c7a1;}
+ .nb-list li.green2{background-color: #158280;}
+ .nb-list li.gray{background-color: rgba(0, 0, 0, .1);}
+ .nb-list li.celeste{background-color: #93c6e5;}
+ .nb-list li.blue{background-color: #004b80;}
+ .nb-list li.yellow{background-color: #ffb41b;}
+ .nb-list li.pink{background-color: #ff6168;}
+ .nb-list li.celeste2{background-color: #42a3e8;}
+
+ .nb-list li.dragging{
+     position: absolute;
+     top: 130px;
+     left: 45px;
+     right: -30px;
+     width: 320px;
+     transform: rotate(6deg);
+     box-shadow: 0 2px 14px rgba(0, 0, 0, .3);
+ }
+
+ .nb-list li.dragging:after{
+     content: '';
+     display: block;
+     position: absolute;
+     width: 48px;
+     height: 70px;
+     background: url(img/maceta.png) no-repeat 0 0;
+     background-size: 100%;
+     bottom: -15px;
+     left: 70%;
+ }
+
+.plantsi{
+    display: block;
+    margin: 0 auto;
+}
+
+footer{
+    text-align: center;
+    color: #40c7a1;
+    font-size: 15px;
+    margin: 85px 0 45px;
+}
+
+footer a{
+    color: #40c7a1;
+}
+
+.popup{
+    display: none;
+}
