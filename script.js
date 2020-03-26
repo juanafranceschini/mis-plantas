@@ -1,5 +1,3 @@
-console.log('hey there!')
-
 function showpopup () {
     var Popup = document.getElementById('popup')
     Popup.classList.add('show')
