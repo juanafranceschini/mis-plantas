@@ -50,7 +50,7 @@ p{
 
 .hero-banner{
     background-color: #93c6e5;
-    height: 90%;
+    weight: 100vh;
     padding: 150px 20px;
     box-sizing: border-box;
     position: relative;
