@@ -78,7 +78,7 @@ p{
     background-size: cover;
     width: 311px;
     height: 415px;
-    position: absolute; bottom: 200px; right: 10%;
+    position: absolute; top: 150px; right: 10%;
 }
 
 a.cta, 
